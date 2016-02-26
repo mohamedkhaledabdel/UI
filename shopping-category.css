@@ -112,20 +112,22 @@
 	border-style: solid;
 	width: 205px;
 	height: 255px;
-	border-style: ridge;
 	border-color: grey;
 	color: black;
+	border-style: ridge;
+
 }
 
-.clothing-category strong {
-	color: grey;
-	font-family: sans-serif;
-	margin-left: 608px;
+.clothing-category__title {
+	padding-right: 600px;
+	padding-left: 600px;
+	text-align: center; 
 	font-style: italic;
-	font-size: 15px;
-
+	font-family: serif;
+	color: grey;
 
 }
+
 a {
 	text-decoration: none;
 }
