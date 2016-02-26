@@ -29,6 +29,9 @@
   	padding: 0;
   	list-style: none;
   	text-align: center;
+  	border-bottom: ridge;
+  	height: 115px;
+
 }
 
 .nav-bar li {
@@ -70,7 +73,59 @@
 	border-style: ridge;
 }
 
+.page-navigation {
+	margin-top: 100px;
+	margin-left: 28px;
+}
 
+.page-navigation p{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: grey;
+	text-transform: uppercase;
+}
+
+.clothing-category {
+	margin-top: 60px;
+}
+
+.clothing-category ul{
+	margin: 0;
+  	padding: 0;
+  	list-style: none;
+  	text-align: center;
+}
+
+.clothing-category li {
+	display: inline-block;
+	list-style: none;
+}
+
+.clothing-category h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.clothing-category p {
+	margin-right: 105px;
+	border-style: solid;
+	width: 205px;
+	height: 255px;
+	border-style: ridge;
+	border-color: grey;
+	color: black;
+}
+
+.clothing-category strong {
+	color: grey;
+	font-family: sans-serif;
+	margin-left: 608px;
+	font-style: italic;
+	font-size: 15px;
+
+
+}
 a {
 	text-decoration: none;
 }
