@@ -75,6 +75,16 @@
 	height: 45px;
 	width: 165px;
 	border-style: ridge;
+	text-indent: 5px;
+	font-style: italic;
+}
+
+.nav-bar__search-icon {
+	width: 45px;
+	height: 45px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png);	
 }
 
 .page-navigation {
@@ -132,12 +142,41 @@
 
 }
 
-.nav-bar__search-icon {
-	width: 45px;
-	height: 45px;
-	background-position: 0px 0px;
-	background-repeat: no-repeat;
-	background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png);
+.extra-nav{
+	margin-top:300px;
+}
+
+.extra-nav-head{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-style: bold;
+}
+
+.extra-nav ul{
+	list-style-position: inside;
+	list-style: none;
+
+}
+
+.extra-nav p{
+	color: grey;
+	font-size: 17px;
+}
+
+.second-head {
+	float: right;
+	margin-right: 850px;
+	margin-top: -210px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.third-head {
+	float: right;
+	margin-right: 550px;
+	margin-top: -250px;
 }
 
 a {
