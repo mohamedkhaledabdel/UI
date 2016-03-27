@@ -117,7 +117,7 @@ a{
 	text-transform: uppercase;
 	color: grey;
 	text-align: left;
-	font-weight: lighter;	
+	font-weight: lighter;
 }
 
 
@@ -126,11 +126,7 @@ a{
 	height: 40px;
 }
 
-.
-.products-list__details {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+
 
 .products-list p{
 	padding-left: 20px;
@@ -147,5 +143,9 @@ a{
 	border-width: 2px;
 }
 
-
+.products-list__product-header p{
+	height: 40px;
+	text-align: left;
+	padding-left: 0px;
+}
 
