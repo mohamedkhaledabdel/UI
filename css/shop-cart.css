@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #262626;
+}
+
+.page__logo{
+	font-size: 10px;
+	color: white;
+	background-color: black;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 60px;
+}
+
+.page__logo__paragraph{
+	width: 35px;
+	height: 35px;
+}
+
+.page__logo__paragraph p{
+	padding-top: 7px;
+	font-family: sans-serif;
+}
+
+.nav-bar{
+	width: 1260px;
+	
+}
+
+.nav-bar ul{
+  	list-style: none;
+  	text-align: left;
+	height: 35px;
+	width: 1180px;
+	margin-left: 100px;
+	margin-top: -35px;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-bar p{
+	margin-top: 10px;
+}
+
+.nav-bar {
+	margin-left: 20px;
+}
+
+.nav-bar__categories {
+	width: 420px;
+	height: 35px;
+}
+.nav-bar__info{
+	float: right;
+	margin-top: -35px;
+	margin-right: 60px;
+	height: 35px;
+}
+.nav-bar__info__search-icon{
+	width: 35px;
+	height: 35px;
+	font-size: 0px;
+	background-color: white;
+	padding-top: 14px;
+	border-style: ridge;
+
+}
+
+.nav-hr{
+	width: 1225px;
+	padding-top: 30px;
+	padding-left: 60px; 
+}
+
+.shopping-bag{
+	text-align: center;
+	width: 1165px;
+	margin-left: 60px;
+	margin-top: 90px;
+	text-transform: uppercase;
+}
+
+.shopping-bag h2{
+	font-size: 32px;
+	font-weight: bold; 
+	font-family: sans-serif;
+}
+
+.shopping-bag p{
+	font-size: 14px;
+	font-style: italic;
+	margin-top: -15px;
+}
+
+.products-list {
+	margin-left: 60px;
+	width: 1165px;
+	margin-top: 70px;
+	border-collapse: collapse;
+
+}
+
+.products-list td, th{
+	width: 1220px;
+	height: 80px;
+	text-transform: uppercase;
+	color: grey;
+	text-align: left;
+	font-weight: lighter;	
+}
+
+
+.products-list__details p{
+	text-align: left;
+	height: 40px;
+}
+
+.
+.products-list__details {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.products-list p{
+	padding-left: 20px;
+}
+
+.products-list__details {
+	padding-left: 40px;
+}
+
+.products-list__pic{
+	font-size: 0px;
+	background-color: #F0F0F0;
+	border-style: ridge;
+	border-width: 2px;
+}
+
+
+
