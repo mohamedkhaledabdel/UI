@@ -83,22 +83,23 @@ a{
 	padding-left: 60px; 
 }
 
-.shopping-bag{
+.shopping-bag, .ship-address{
 	text-align: center;
-	width: 1165px;
+	width: 1160px;
 	margin-left: 60px;
-	margin-top: 90px;
-	text-transform: uppercase;
+	margin-top: 110px;
 }
 
-.shopping-bag h2{
+.shopping-bag h2, .ship-address h3, .payment-options h4{
 	font-size: 32px;
 	font-weight: bold; 
 	font-family: sans-serif;
+	text-transform: uppercase;
+
 }
 
-.shopping-bag p{
-	font-size: 14px;
+.shopping-bag p, .ship-address p, .payment-options__header p{
+	font-size: 16px;
 	font-style: italic;
 	margin-top: -15px;
 }
@@ -108,7 +109,6 @@ a{
 	width: 1165px;
 	margin-top: 70px;
 	border-collapse: collapse;
-
 }
 
 .products-list td, th{
@@ -118,6 +118,7 @@ a{
 	color: grey;
 	text-align: left;
 	font-weight: lighter;
+
 }
 
 
@@ -147,5 +148,161 @@ a{
 	height: 40px;
 	text-align: left;
 	padding-left: 0px;
+}
+
+.Shipping-address-info{
+	background-color: #F0F0F0;
+	width: 1160px;
+	margin-left: 60px;
+	margin-top: -18px;
+	padding-top: 20px;
+}
+
+.ship-address{
+	background-color: #F0F0F0;
+
+}
+select,.shipping-address-info__form__address-1, .shipping-address-info__form__address-2 {
+	width: 550px;
+    padding: 16px 20px;
+    border-radius: 1px;
+    background-color: white;
+    margin-left: 300px;
+}
+
+label {
+	text-transform: uppercase;
+	color: grey;
+	font-size: 13px;
+	margin-left: 300px;
+}
+
+.Shipping-address-info__firstname,.Shipping-address-info__city-info{
+	margin-top: 50px;
+}
+.Shipping-address-info__fullname__firstname,.Shipping-address-info__city-info__postalcode{
+	width: 250px;
+    padding: 16px 20px;
+    border-radius: 1px;
+    background-color: white;
+    margin-left: 300px;   
+}
+
+.Shipping-address-info__second-field {
+	float: right;
+	width: 250px;
+    border-radius: 1px;
+    padding: 16px 20px;
+    background-color: white;
+    margin-right: 310px;
+    margin-top: -69px; 
+}
+
+.Shipping-address-info__second-field__label{
+	float: right;
+	margin-right: 385px;
+    margin-top: -65px; 
+}
+
+.shipping-address-info__form__address-2-label{
+	float: left;
+	margin-top: 50px;
+}
+.Shipping-address-info__city-info__city-label{
+	float: right;
+	margin-right: 430px;
+    margin-top: -65px; 
+}
+
+.shipping-address-info__confirmation{
+	padding-left: 155px;
+}
+
+.payment-options{
+	width: 1160px;
+	margin-left: 60px;
+	height: 520px;
+	margin-top: 120px;
+	background-color: #F0F0F0;
+}
+
+.payment-options__header{
+	width: 100%;
+	text-align: center;
+}
+
+.payment-options__header p{
+	margin-top: -20px;
+}
+
+.payment-options__calculation{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 17px;
+	color: grey;
+}
+
+.payment-options__calculation__total{
+	color: orange;
+}
+
+.payment-options__payment-method{
+	margin-top: 60px;
+}
+
+.payment-options__order-button{
+	background-color: orange;
+	margin-top: 30px;
+	width: 140px;
+	height: 45px;
+	color: white;
+	margin-left: 510px;
+}
+
+.extra-nav{
+	margin-top:100px;
+}
+
+.extra-nav-head{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-style: bold;
+}
+
+.extra-nav ul{
+	list-style-position: inside;
+	list-style: none;
+}
+
+
+.extra-nav p, .extra-nav cite{
+	color: grey;
+	font-size: 17px;
+}
+
+.second-head {
+	float: right;
+	margin-right: 850px;
+	margin-top: -210px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.third-head {
+	float: right;
+	margin-right: 550px;
+	margin-top: -240px;
+}
+
+.border{
+	border-left: ridge;
+}
+
+.fourth-head {
+	float: right;
+	margin-right: 150px;
+	margin-top: -240px;
 }
 
